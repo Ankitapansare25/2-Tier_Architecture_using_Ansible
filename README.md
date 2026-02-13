@@ -66,7 +66,10 @@ cd <repo_folder>
 3. Run the playbook:
 
 ```bash
-ansible-playbook -i inventory.ini 2tier-deploy.yml
+ansible-playbook -i inventory.ini 2tier.yml
+
+
+![2-Tier Architecture](images/Screenshot 2025-12-19 193908.png)
 ```
 
 4. Access App Server via browser:
